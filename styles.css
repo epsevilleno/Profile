@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    font-family: 'Inter', Arial, Helvetica, sans-serif, sans-serif !important;
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px) 0 0,
+    radial-gradient(circle, rgba(0, 0, 0, 0.1) 1px, transparent 1px) 10px 10px;
+    background-size: 20px 20px;
+}
+
+/* Navbar */
+
+.navbar {
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+.ms-navbar {
+    margin-left: 150px;
+}
+
+.me-navbar {
+    margin-right: 150px;
+}
+
+.fontsize-navbar {
+    font-size: 17px;
+}
+
+.nav-link{
+    margin: 0 20px;
+}
+
+/* Banner */
+
+.ms-bannertext {
+    margin-left: 225px;
+}
+
+.mt-bannertext {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mt-button {
+    margin-top: 30px;
+}
+
+.container-margin {
+    margin-left: 225px;
+    margin-right: 225px;
+}
+
+
+/* Works */
+
+.margin-carousel {
+    margin: 0px 350px;
+}
+
+.ml-carousel-button {
+    margin-left: 225px;
+}
+
+.mr-carousel-button {
+    margin-right: 225px;
+}
+
+.carousel-caption {
+    top: 0;
+    bottom: auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+
+/* Contact Icons */
+.bi {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Misc */
+
+.text-content {
+    color:#000000
+}
+
+.img-border {
+    border-radius: 25px;
+    border-style: solid;
+    border-width: thin;
+    border-color: 3px #000000;
+}
+
+hr.solid {
+    border-top: 3px solid #000000;
+    margin: 100px 700px 50px;
+}
+
+.margin-top {
+    margin-top: 150px;
+}
+
+/* Works Carousel */
+
+.slide-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+
+/* Skills and Recognitions */
+
+.card {
+    max-width: 100%;
+    overflow: hidden;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out; 
+}
+
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 195, 255, 0.377); 
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 15px;
+}
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .text-container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 5px;
+    max-width: 100%; 
+  }
+  
+  .hover-text {
+    font-size: 15px;
+    color: #333;
+    padding: 3px;
+    transition: color 0.3s, border 0.3s;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    white-space: nowrap;
+  }
+  
+  .hover-text:hover {
+    color: #007bff;
+    border-radius: 25px;
+    border: 2px solid #007bff;
+  }
+
+/* Hobbies */
+
+.hobbies-cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+  }
+  
+  .hobbies-card {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 1200px) {
+    .hobbies-card {
+      width: 100%; 
+    }
+  }
+
+/* Footer */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+.footer .container-fluid p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+}
